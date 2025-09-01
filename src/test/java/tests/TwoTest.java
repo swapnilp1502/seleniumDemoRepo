@@ -12,6 +12,7 @@ public class TwoTest extends Base{
 	@Test
 	public void testTwo() throws IOException, InterruptedException
 	{
+		System.out.println("TL updated this code");    
 		System.out.println("inside test two--");
 		 driver= initializeDriver();
 		driver.get("https://tutorialsninja.com/demo/");
