@@ -12,7 +12,8 @@ public class TwoTest extends Base{
 	@Test
 	public void testTwo() throws IOException, InterruptedException
 	{
-		System.out.println("2.38 pm update");    
+		System.out.println("2.38 pm update");  
+		System.out.println("second update by karan in KBranch");
 		System.out.println("inside test two--");
 		 driver= initializeDriver();
 		driver.get("https://tutorialsninja.com/demo/");
